@@ -18,6 +18,7 @@ body {
 
 nav {
     flex: none;
+    margin: 10px auto;
 }
 
 ul {
@@ -46,12 +47,16 @@ nav ul li a {
     text-transform: uppercase;
 }
 
+.banner {
+    margin: 20px auto 0 auto;
+}
+
 .wreath {
     display: block;
     flex: 1 1 auto;
     max-height: 50%;
     max-width: 75%;
-    margin: 2em auto;
+    margin: 10px auto;
 }
 
 .info {
