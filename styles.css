@@ -8,24 +8,22 @@ html {
 }
 
 body {
-    width: 100%;
     height: 100%;
-    border: 20px solid white;
     background-color: #F5F5F5;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: center;
 }
 
 nav {
-    max-width: 95vw;
     flex: none;
 }
 
 ul {
     list-style: none;
     padding: 0px;
+    margin: 10px 0;
 }
 
 ul li {
@@ -53,7 +51,7 @@ nav ul li a {
     flex: 1 1 auto;
     max-height: 50%;
     max-width: 75%;
-    margin: 0 auto;
+    margin: 2em auto;
 }
 
 .info {
@@ -72,6 +70,7 @@ nav ul li a {
 .dates li {
     display: table-cell;
     vertical-align: middle;
+    text-align: center;
 }
 
 .dates-fancy {
@@ -86,7 +85,7 @@ nav ul li a {
     display: inline-block;
     font-family: 'Cormorant Garamond', serif;
     font-weight: 500;
-    font-size: 3em;
+    font-size: 2.5em;
     line-height: 0.5;
     color: #0E2932;
 }
@@ -95,10 +94,10 @@ nav ul li a {
     display: inline-block;
     font-family: 'Cormorant Garamond', serif;
     font-weight: 700;
-    font-size: 1em;
+    font-size: 0.8em;
     color: #0E2932;
     text-transform: uppercase;
-    padding-top: 20px;
+    padding-top: 1em;
 }
 
 .location {
