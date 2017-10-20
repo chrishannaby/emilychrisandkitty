@@ -4,6 +4,7 @@
 
 html {
     height: 100%;
+    font-size: calc(12px + (16 - 12)*(100vw - 300px)/(700 - 300));
 }
 
 body {
@@ -18,7 +19,7 @@ body {
 }
 
 nav {
-    max-width: 90vw;
+    max-width: 95vw;
     flex: none;
 }
 
@@ -41,7 +42,7 @@ nav ul li a {
     display: block;
     font-family: 'Cormorant Garamond', serif;
     font-weight: 500;
-    font-size: 2.5em;
+    font-size: 1em;
     color: #0E2932;
     text-decoration: none;
     text-transform: uppercase;
@@ -76,7 +77,7 @@ nav ul li a {
 .dates-fancy {
     font-family: 'Cormorant Garamond', serif;
     font-weight: 500;
-    font-size: 2em;
+    font-size: 1em;
     font-style: italic;
     color: #0E2932;
 }
@@ -85,7 +86,7 @@ nav ul li a {
     display: inline-block;
     font-family: 'Cormorant Garamond', serif;
     font-weight: 500;
-    font-size: 5em;
+    font-size: 3em;
     line-height: 0.5;
     color: #0E2932;
 }
@@ -94,7 +95,7 @@ nav ul li a {
     display: inline-block;
     font-family: 'Cormorant Garamond', serif;
     font-weight: 700;
-    font-size: 2em;
+    font-size: 1em;
     color: #0E2932;
     text-transform: uppercase;
     padding-top: 20px;
@@ -103,6 +104,6 @@ nav ul li a {
 .location {
     font-family: 'Cormorant Garamond', serif;
     font-weight: 500;
-    font-size: 1.5em;
+    font-size: 0.7em;
     color: #0E2932;
 }
