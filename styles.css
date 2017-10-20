@@ -4,7 +4,8 @@
 
 html {
     height: 100%;
-    font-size: calc(12px + (16 - 12)*(100vw - 300px)/(700 - 300));
+    color: #0E2932;
+    font-family: 'Cormorant Garamond', serif;
 }
 
 body {
@@ -14,6 +15,39 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+}
+
+h1 {
+    font-family: 'Cormorant SC', serif;
+    font-size: 2em;
+    font-weight: 400;
+    margin-top: 1.5em;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 2em;
+    margin-bottom: 0;
+}
+
+h3 {
+    font-style: italic;
+    font-weight: 500;
+    font-size: 1.3em;
+    margin-top: 0.5em;
+}
+
+hr {
+    margin: 2em 0;
+}
+
+h1 + hr {
+    margin: 1em 0;
+}
+
+p {
+    font-size: 1.2em;
 }
 
 nav {
@@ -39,13 +73,13 @@ ul li:last-child {
 
 nav ul li a {
     display: block;
-    font-family: 'Cormorant Garamond', serif;
     font-weight: 500;
-    font-size: 1em;
-    color: #0E2932;
+    font-size: 2em;
     text-decoration: none;
     text-transform: uppercase;
+    color: #0E2932;
 }
+
 
 .banner {
     margin: 20px auto 0 auto;
@@ -55,12 +89,9 @@ nav ul li a {
 }
 
 .content {
-    font-family: 'Cormorant Garamond', serif;
-    font-weight: 500;
-    font-size: 3em;
-    color: #0E2932;
-    margin: auto;
+    margin: 0 auto;
     text-align: center;
+    max-width: 500px;
 }
 
 .wreath {
@@ -80,6 +111,11 @@ nav ul li a {
     align-items: center;
 }
 
+.timeline {
+    max-width: 400px;
+    margin: 0 auto 3em auto;
+}
+
 .dates {
     display: table;
 }
@@ -91,35 +127,99 @@ nav ul li a {
 }
 
 .dates-fancy {
-    font-family: 'Cormorant Garamond', serif;
     font-weight: 500;
-    font-size: 1em;
+    font-size: 2em;
     font-style: italic;
-    color: #0E2932;
 }
 
 .dates-num {
     display: inline-block;
-    font-family: 'Cormorant Garamond', serif;
     font-weight: 500;
-    font-size: 2.5em;
+    font-size: 4em;
     line-height: 0.5;
-    color: #0E2932;
 }
 
 .dates-month {
     display: inline-block;
-    font-family: 'Cormorant Garamond', serif;
     font-weight: 700;
-    font-size: 0.8em;
-    color: #0E2932;
+    font-size: 1.2em;
     text-transform: uppercase;
     padding-top: 1em;
 }
 
 .location {
-    font-family: 'Cormorant Garamond', serif;
     font-weight: 500;
-    font-size: 0.7em;
-    color: #0E2932;
+    font-size: 1.2em;
+}
+
+table {
+    margin: auto;
+    font-size: 1.3em;
+}
+
+td {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+table .times {
+    text-align: right;
+    padding-right: 2em;
+    padding-left: 3em;
+}
+
+table .descriptions {
+    text-align: left;
+}
+
+.map {
+    border: none;
+    display: block;
+    margin: 2em auto;
+}
+
+.logo {
+    margin: 1em auto;
+}
+
+.typeform-widget {
+    flex: 1;
+}
+
+.rsvp {
+    justify-content: stretch;
+    overflow: hidden;
+}
+
+@media all and (max-width: 615px) {
+    nav ul li a {
+        font-size: 1em;
+    }
+    .dates-fancy {
+        font-size: 1.32em;
+    }
+    .dates-num {
+        font-size: 2.64em;
+    }
+    .dates-month {
+        font-size: 0.79em;
+    }
+    .location {
+        font-size: 0.79em;
+    }
+
+    p {
+        font-size: 1em;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+    table {
+        font-size: 1em;
+    }
+
+    table .times {
+        padding-left: 0.5em;
+    }
+
 }
