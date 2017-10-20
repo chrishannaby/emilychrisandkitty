@@ -49,6 +49,18 @@ nav ul li a {
 
 .banner {
     margin: 20px auto 0 auto;
+    flex: 1 1 auto;
+    max-width: 500px;
+    width: 80vw;
+}
+
+.content {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 500;
+    font-size: 3em;
+    color: #0E2932;
+    margin: auto;
+    text-align: center;
 }
 
 .wreath {
