@@ -178,6 +178,13 @@ table .descriptions {
     margin: 2em auto;
 }
 
+#rsvp-typeform {
+    border: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
 .logo {
     margin: 1em auto;
 }
